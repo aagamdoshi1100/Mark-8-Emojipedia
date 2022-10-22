@@ -4,7 +4,18 @@ var myDict = {
   "❤️": "love",
   "🎃": "Holloween",
   "😊": "smile",
-  "✨": "Sparkles"
+  "✨": "Sparkles",
+  "🪔": "Diwali",
+  "👍": "Thumbs up",
+  "😎": "Smiling Face with Sunglasses",
+  "😍": "Smiling Face with Heart-Eyes",
+  "🥰": "Smiling Face with Hearts",
+  "🙂": "Slightly Smiling Face",
+  "😇": "Smiling Face with Halo",
+  "⛷️": "Skier",
+  "🏂": "Snowboarder",
+  "🏌️": "Person Golfing",
+  "🏌️‍♂️": "Man Golfing"
 };
 var objectToArray = Object.keys(myDict);
 
@@ -29,9 +40,11 @@ export default function App() {
   return (
     <div className="App">
       <h1>Emojipedia</h1>
+
+      <h3>Please copy and and paste emoji from below list to identify</h3>
       <input onChange={inputHandler}></input>
 
-      <h2>Emoji is:{valueUserInput}</h2>
+      <h3>Emoji is:{valueUserInput}</h3>
 
       {objectToArray.map(function (emoji) {
         return (
