@@ -2,7 +2,7 @@
 
 
 This is React app created to identify the Emoji.
-You have to click on image which you want to identify. You can also insert image into te input field
+You have to click on image which you want to identify. You can also insert image into the input field
 
 ### useState
 
